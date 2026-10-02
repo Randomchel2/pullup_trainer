@@ -1,0 +1,21 @@
+{
+  "name": "pullup-trainer-clone",
+  "private": true,
+  "version": "1.0.3",
+  "type": "module",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev --workspace server",
+    "dev:web": "npm run dev --workspace client",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "seed": "npm run seed --workspace server",
+    "test": "./test/run.sh",
+    "test:e2e": "npm run build && node test/e2e.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "jsdom": "^25.0.1"
+  }
+}

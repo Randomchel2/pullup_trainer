@@ -1,0 +1,33 @@
+# Caddy vorkonfiguriert für https – TLS-Zertifikat wird automatisch bezogen.
+#
+#   apt install -y caddy
+#   cp deploy/Caddyfile /etc/caddy/Caddyfile
+#   caddy validate --config /etc/caddy/Caddyfile
+#   systemctl reload caddy
+
+# Ersetze pullup.example.com durch deine Domain.
+# Ohne Domain: "http://:80" verwenden – dann gibt's kein HTTPS.
+pullup.example.com {
+	encode zstd gzip
+
+	# Keine HSTS, solange die Domain nur zum Testen genutzt wird.
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy same-origin
+		-Server
+	}
+
+	# Der Server spricht selbst mit SQLite – keine Datei-Caches nötig.
+	reverse_proxy 127.0.0.1:3001
+}
+
+# Optional: Wenn die Instanz nicht öffentlich sein soll, aber trotzdem
+# https braucht, Basic-Auth vorschalten und /api/dev/reset wegsperren.
+#
+# pullup.example.com {
+# 	basic_auth {
+# 		deinname $2a$14$HIER_DEN_HASH_EINFUEGEN
+# 	}
+# 	reverse_proxy 127.0.0.1:3001
+# }

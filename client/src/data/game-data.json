@@ -1,0 +1,1457 @@
+{
+  "pullMedals": [
+    {
+      "id": "total",
+      "label": "Gesamte Klimmzüge",
+      "icon": "💎",
+      "type": "total",
+      "tiers": [
+        {
+          "id": "total_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "50 Klimmzüge insgesamt",
+          "threshold": 50
+        },
+        {
+          "id": "total_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "250 Klimmzüge insgesamt",
+          "threshold": 250
+        },
+        {
+          "id": "total_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "1.000 Klimmzüge insgesamt",
+          "threshold": 1000
+        },
+        {
+          "id": "total_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "2.500 Klimmzüge insgesamt",
+          "threshold": 2500
+        },
+        {
+          "id": "total_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "5.000 Klimmzüge insgesamt",
+          "threshold": 5000
+        }
+      ]
+    },
+    {
+      "id": "day",
+      "label": "Bester Tag",
+      "icon": "⚡",
+      "type": "day",
+      "tiers": [
+        {
+          "id": "day_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "15 Klimmzüge an einem Tag",
+          "threshold": 15
+        },
+        {
+          "id": "day_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "40 Klimmzüge an einem Tag",
+          "threshold": 40
+        },
+        {
+          "id": "day_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "100 Klimmzüge an einem Tag",
+          "threshold": 100
+        },
+        {
+          "id": "day_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "200 Klimmzüge an einem Tag",
+          "threshold": 200
+        },
+        {
+          "id": "day_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "500 Klimmzüge an einem Tag",
+          "threshold": 500
+        }
+      ]
+    },
+    {
+      "id": "weekly",
+      "label": "Wochenergebnis",
+      "icon": "📅",
+      "type": "weekly",
+      "tiers": [
+        {
+          "id": "week_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "30 Klimmzüge in einer Woche",
+          "threshold": 30
+        },
+        {
+          "id": "week_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "100 Klimmzüge in einer Woche",
+          "threshold": 100
+        },
+        {
+          "id": "week_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "300 Klimmzüge in einer Woche",
+          "threshold": 300
+        },
+        {
+          "id": "week_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "600 Klimmzüge in einer Woche",
+          "threshold": 600
+        },
+        {
+          "id": "week_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "1.000 Klimmzüge in einer Woche",
+          "threshold": 1000
+        }
+      ]
+    },
+    {
+      "id": "streak",
+      "label": "Streak",
+      "icon": "🔥",
+      "type": "streak",
+      "tiers": [
+        {
+          "id": "streak_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "3 Tage in Folge",
+          "threshold": 3
+        },
+        {
+          "id": "streak_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "7 Tage in Folge",
+          "threshold": 7
+        },
+        {
+          "id": "streak_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "30 Tage in Folge",
+          "threshold": 30
+        },
+        {
+          "id": "streak_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "60 Tage in Folge",
+          "threshold": 60
+        },
+        {
+          "id": "streak_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "100 Tage in Folge",
+          "threshold": 100
+        }
+      ]
+    },
+    {
+      "id": "rank",
+      "label": "Wochenrangliste",
+      "icon": "🏆",
+      "type": "rank",
+      "tiers": [
+        {
+          "id": "rank_5",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "Top 5 diese Woche",
+          "threshold": 5
+        },
+        {
+          "id": "rank_3",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "Top 3 diese Woche",
+          "threshold": 3
+        },
+        {
+          "id": "rank_2",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "Platz 2 diese Woche",
+          "threshold": 2
+        },
+        {
+          "id": "rank_1",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "Platz 1 diese Woche",
+          "threshold": 1
+        }
+      ]
+    },
+    {
+      "id": "consistency",
+      "label": "Konsistenz",
+      "icon": "📆",
+      "type": "consistency",
+      "tiers": [
+        {
+          "id": "cons_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "An 5 verschiedenen Wochen trainiert",
+          "threshold": 5
+        },
+        {
+          "id": "cons_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "An 10 verschiedenen Wochen trainiert",
+          "threshold": 10
+        },
+        {
+          "id": "cons_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "An 20 verschiedenen Wochen trainiert",
+          "threshold": 20
+        },
+        {
+          "id": "cons_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "An 40 verschiedenen Wochen trainiert",
+          "threshold": 40
+        },
+        {
+          "id": "cons_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "An 52 verschiedenen Wochen trainiert",
+          "threshold": 52
+        }
+      ]
+    },
+    {
+      "id": "sessions",
+      "label": "Training-Sessions",
+      "icon": "🎯",
+      "type": "sessions",
+      "tiers": [
+        {
+          "id": "sess_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "10 Trainingseinheiten",
+          "threshold": 10
+        },
+        {
+          "id": "sess_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "25 Trainingseinheiten",
+          "threshold": 25
+        },
+        {
+          "id": "sess_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "50 Trainingseinheiten",
+          "threshold": 50
+        },
+        {
+          "id": "sess_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "100 Trainingseinheiten",
+          "threshold": 100
+        },
+        {
+          "id": "sess_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "200 Trainingseinheiten",
+          "threshold": 200
+        }
+      ]
+    },
+    {
+      "id": "perfect_weeks",
+      "label": "Perfekte Wochen",
+      "icon": "🌟",
+      "type": "perfect_weeks",
+      "tiers": [
+        {
+          "id": "pw_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "1 perfekte Woche (7/7 Tage)",
+          "threshold": 1
+        },
+        {
+          "id": "pw_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "3 perfekte Wochen",
+          "threshold": 3
+        },
+        {
+          "id": "pw_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "8 perfekte Wochen",
+          "threshold": 8
+        },
+        {
+          "id": "pw_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "15 perfekte Wochen",
+          "threshold": 15
+        },
+        {
+          "id": "pw_5",
+          "medal": "💎",
+          "name": "Diamant",
+          "desc": "30 perfekte Wochen",
+          "threshold": 30
+        }
+      ]
+    }
+  ],
+  "pushMedals": [
+    {
+      "id": "total",
+      "label": "Gesamte Liegestützen",
+      "icon": "🪙",
+      "type": "total",
+      "tiers": [
+        {
+          "id": "total_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "50 Liegestützen insgesamt",
+          "threshold": 50
+        },
+        {
+          "id": "total_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "250 Liegestützen insgesamt",
+          "threshold": 250
+        },
+        {
+          "id": "total_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "1.000 Liegestützen insgesamt",
+          "threshold": 1000
+        },
+        {
+          "id": "total_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "2.500 Liegestützen insgesamt",
+          "threshold": 2500
+        },
+        {
+          "id": "total_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "5.000 Liegestützen insgesamt",
+          "threshold": 5000
+        }
+      ]
+    },
+    {
+      "id": "day",
+      "label": "Bester Tag",
+      "icon": "⚡",
+      "type": "day",
+      "tiers": [
+        {
+          "id": "day_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "25 Liegestützen an einem Tag",
+          "threshold": 25
+        },
+        {
+          "id": "day_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "75 Liegestützen an einem Tag",
+          "threshold": 75
+        },
+        {
+          "id": "day_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "200 Liegestützen an einem Tag",
+          "threshold": 200
+        },
+        {
+          "id": "day_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "400 Liegestützen an einem Tag",
+          "threshold": 400
+        },
+        {
+          "id": "day_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "750 Liegestützen an einem Tag",
+          "threshold": 750
+        }
+      ]
+    },
+    {
+      "id": "weekly",
+      "label": "Wochenergebnis",
+      "icon": "📅",
+      "type": "weekly",
+      "tiers": [
+        {
+          "id": "week_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "50 Liegestützen in einer Woche",
+          "threshold": 50
+        },
+        {
+          "id": "week_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "200 Liegestützen in einer Woche",
+          "threshold": 200
+        },
+        {
+          "id": "week_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "500 Liegestützen in einer Woche",
+          "threshold": 500
+        },
+        {
+          "id": "week_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "1.000 Liegestützen in einer Woche",
+          "threshold": 1000
+        },
+        {
+          "id": "week_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "2.000 Liegestützen in einer Woche",
+          "threshold": 2000
+        }
+      ]
+    },
+    {
+      "id": "streak",
+      "label": "Streak",
+      "icon": "🔥",
+      "type": "streak",
+      "tiers": [
+        {
+          "id": "streak_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "3 Tage in Folge",
+          "threshold": 3
+        },
+        {
+          "id": "streak_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "7 Tage in Folge",
+          "threshold": 7
+        },
+        {
+          "id": "streak_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "30 Tage in Folge",
+          "threshold": 30
+        },
+        {
+          "id": "streak_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "60 Tage in Folge",
+          "threshold": 60
+        },
+        {
+          "id": "streak_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "100 Tage in Folge",
+          "threshold": 100
+        }
+      ]
+    },
+    {
+      "id": "rank",
+      "label": "Wochenrangliste",
+      "icon": "🏆",
+      "type": "rank",
+      "tiers": [
+        {
+          "id": "rank_5",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "Top 5 diese Woche",
+          "threshold": 5
+        },
+        {
+          "id": "rank_3",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "Top 3 diese Woche",
+          "threshold": 3
+        },
+        {
+          "id": "rank_2",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "Platz 2 diese Woche",
+          "threshold": 2
+        },
+        {
+          "id": "rank_1",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "Platz 1 diese Woche",
+          "threshold": 1
+        }
+      ]
+    },
+    {
+      "id": "consistency",
+      "label": "Konsistenz",
+      "icon": "📆",
+      "type": "consistency",
+      "tiers": [
+        {
+          "id": "cons_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "An 5 verschiedenen Wochen trainiert",
+          "threshold": 5
+        },
+        {
+          "id": "cons_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "An 10 verschiedenen Wochen trainiert",
+          "threshold": 10
+        },
+        {
+          "id": "cons_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "An 20 verschiedenen Wochen trainiert",
+          "threshold": 20
+        },
+        {
+          "id": "cons_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "An 40 verschiedenen Wochen trainiert",
+          "threshold": 40
+        },
+        {
+          "id": "cons_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "An 52 verschiedenen Wochen trainiert",
+          "threshold": 52
+        }
+      ]
+    },
+    {
+      "id": "sessions",
+      "label": "Training-Sessions",
+      "icon": "🎯",
+      "type": "sessions",
+      "tiers": [
+        {
+          "id": "sess_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "10 Trainingseinheiten",
+          "threshold": 10
+        },
+        {
+          "id": "sess_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "25 Trainingseinheiten",
+          "threshold": 25
+        },
+        {
+          "id": "sess_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "50 Trainingseinheiten",
+          "threshold": 50
+        },
+        {
+          "id": "sess_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "100 Trainingseinheiten",
+          "threshold": 100
+        },
+        {
+          "id": "sess_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "200 Trainingseinheiten",
+          "threshold": 200
+        }
+      ]
+    },
+    {
+      "id": "perfect_weeks",
+      "label": "Perfekte Wochen",
+      "icon": "🌟",
+      "type": "perfect_weeks",
+      "tiers": [
+        {
+          "id": "pw_1",
+          "medal": "🥉",
+          "name": "Bronze",
+          "desc": "1 perfekte Woche (7/7 Tage)",
+          "threshold": 1
+        },
+        {
+          "id": "pw_2",
+          "medal": "🥈",
+          "name": "Silber",
+          "desc": "3 perfekte Wochen",
+          "threshold": 3
+        },
+        {
+          "id": "pw_3",
+          "medal": "🥇",
+          "name": "Gold",
+          "desc": "8 perfekte Wochen",
+          "threshold": 8
+        },
+        {
+          "id": "pw_4",
+          "medal": "💠",
+          "name": "Platin",
+          "desc": "15 perfekte Wochen",
+          "threshold": 15
+        },
+        {
+          "id": "pw_5",
+          "medal": "🪙",
+          "name": "Diamant",
+          "desc": "30 perfekte Wochen",
+          "threshold": 30
+        }
+      ]
+    }
+  ],
+  "pullLevels": [
+    {
+      "level": 1,
+      "name": "Anfänger",
+      "threshold": 0
+    },
+    {
+      "level": 2,
+      "name": "Einsteiger",
+      "threshold": 20
+    },
+    {
+      "level": 3,
+      "name": "Ambitioniert",
+      "threshold": 50
+    },
+    {
+      "level": 4,
+      "name": "Routiniert",
+      "threshold": 100
+    },
+    {
+      "level": 5,
+      "name": "Erfahren",
+      "threshold": 150
+    },
+    {
+      "level": 6,
+      "name": "Fortgeschritten",
+      "threshold": 250
+    },
+    {
+      "level": 7,
+      "name": "Profi",
+      "threshold": 350
+    },
+    {
+      "level": 8,
+      "name": "Experte",
+      "threshold": 500
+    },
+    {
+      "level": 9,
+      "name": "Meister",
+      "threshold": 750
+    },
+    {
+      "level": 10,
+      "name": "Legende",
+      "threshold": 1000
+    },
+    {
+      "level": 11,
+      "name": "Überflieger",
+      "threshold": 1500
+    },
+    {
+      "level": 12,
+      "name": "Kraftpaket",
+      "threshold": 2200
+    },
+    {
+      "level": 13,
+      "name": "Athlet",
+      "threshold": 3000
+    },
+    {
+      "level": 14,
+      "name": "Kraftmaschine",
+      "threshold": 4000
+    },
+    {
+      "level": 15,
+      "name": "Titan",
+      "threshold": 5200
+    },
+    {
+      "level": 16,
+      "name": "Goliath",
+      "threshold": 6500
+    },
+    {
+      "level": 17,
+      "name": "Gigant",
+      "threshold": 8000
+    },
+    {
+      "level": 18,
+      "name": "Koloss",
+      "threshold": 9800
+    },
+    {
+      "level": 19,
+      "name": "Herkules",
+      "threshold": 11800
+    },
+    {
+      "level": 20,
+      "name": "Unbezwingbar",
+      "threshold": 14000
+    },
+    {
+      "level": 21,
+      "name": "Unerschöpflich",
+      "threshold": 16500
+    },
+    {
+      "level": 22,
+      "name": "Übermensch",
+      "threshold": 19200
+    },
+    {
+      "level": 23,
+      "name": "Kraftgott",
+      "threshold": 22000
+    },
+    {
+      "level": 24,
+      "name": "Mythos",
+      "threshold": 25000
+    },
+    {
+      "level": 25,
+      "name": "Phänomen",
+      "threshold": 28500
+    },
+    {
+      "level": 26,
+      "name": "Ikone",
+      "threshold": 32000
+    },
+    {
+      "level": 27,
+      "name": "Monument",
+      "threshold": 36000
+    },
+    {
+      "level": 28,
+      "name": "Titanenstärke",
+      "threshold": 40000
+    },
+    {
+      "level": 29,
+      "name": "Unsterblich",
+      "threshold": 45000
+    },
+    {
+      "level": 30,
+      "name": "Gipfelstürmer",
+      "threshold": 50000
+    }
+  ],
+  "pushLevels": [
+    {
+      "level": 1,
+      "name": "Anfänger",
+      "threshold": 0
+    },
+    {
+      "level": 2,
+      "name": "Einsteiger",
+      "threshold": 20
+    },
+    {
+      "level": 3,
+      "name": "Ambitioniert",
+      "threshold": 50
+    },
+    {
+      "level": 4,
+      "name": "Routiniert",
+      "threshold": 100
+    },
+    {
+      "level": 5,
+      "name": "Erfahren",
+      "threshold": 150
+    },
+    {
+      "level": 6,
+      "name": "Fortgeschritten",
+      "threshold": 250
+    },
+    {
+      "level": 7,
+      "name": "Profi",
+      "threshold": 350
+    },
+    {
+      "level": 8,
+      "name": "Experte",
+      "threshold": 500
+    },
+    {
+      "level": 9,
+      "name": "Meister",
+      "threshold": 750
+    },
+    {
+      "level": 10,
+      "name": "Legende",
+      "threshold": 1000
+    },
+    {
+      "level": 11,
+      "name": "Überflieger",
+      "threshold": 1500
+    },
+    {
+      "level": 12,
+      "name": "Kraftpaket",
+      "threshold": 2200
+    },
+    {
+      "level": 13,
+      "name": "Athlet",
+      "threshold": 3000
+    },
+    {
+      "level": 14,
+      "name": "Kraftmaschine",
+      "threshold": 4000
+    },
+    {
+      "level": 15,
+      "name": "Titan",
+      "threshold": 5200
+    },
+    {
+      "level": 16,
+      "name": "Goliath",
+      "threshold": 6500
+    },
+    {
+      "level": 17,
+      "name": "Gigant",
+      "threshold": 8000
+    },
+    {
+      "level": 18,
+      "name": "Koloss",
+      "threshold": 9800
+    },
+    {
+      "level": 19,
+      "name": "Herkules",
+      "threshold": 11800
+    },
+    {
+      "level": 20,
+      "name": "Unbezwingbar",
+      "threshold": 14000
+    },
+    {
+      "level": 21,
+      "name": "Unerschöpflich",
+      "threshold": 16500
+    },
+    {
+      "level": 22,
+      "name": "Übermensch",
+      "threshold": 19200
+    },
+    {
+      "level": 23,
+      "name": "Kraftgott",
+      "threshold": 22000
+    },
+    {
+      "level": 24,
+      "name": "Mythos",
+      "threshold": 25000
+    },
+    {
+      "level": 25,
+      "name": "Phänomen",
+      "threshold": 28500
+    },
+    {
+      "level": 26,
+      "name": "Ikone",
+      "threshold": 32000
+    },
+    {
+      "level": 27,
+      "name": "Monument",
+      "threshold": 36000
+    },
+    {
+      "level": 28,
+      "name": "Titanenstärke",
+      "threshold": 40000
+    },
+    {
+      "level": 29,
+      "name": "Unsterblich",
+      "threshold": 45000
+    },
+    {
+      "level": 30,
+      "name": "Gipfelstürmer",
+      "threshold": 50000
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_rank1",
+      "type": "color",
+      "name": "Champion-Gold",
+      "value": "from-amber-300 to-yellow-500",
+      "rarity": "mythic",
+      "category": "rank1",
+      "requirement": "Platz 1 der Woche"
+    },
+    {
+      "id": "ach_day50",
+      "type": "frame",
+      "name": "Tagesheld",
+      "emoji": "🌟",
+      "rarity": "epic",
+      "category": "day",
+      "threshold": 50,
+      "requirement": "50 Reps/Tag"
+    },
+    {
+      "id": "ach_day100",
+      "type": "frame",
+      "name": "Tageslegende",
+      "emoji": "💥",
+      "rarity": "legendary",
+      "category": "day",
+      "threshold": 100,
+      "requirement": "100 Reps/Tag"
+    },
+    {
+      "id": "ach_week300",
+      "type": "color",
+      "name": "Wochenkraft",
+      "value": "from-indigo-500 to-blue-400",
+      "rarity": "epic",
+      "category": "week",
+      "threshold": 300,
+      "requirement": "300 Reps/Woche"
+    },
+    {
+      "id": "ach_week500",
+      "type": "frame",
+      "name": "Wochenkönig",
+      "emoji": "🏰",
+      "rarity": "legendary",
+      "category": "week",
+      "threshold": 500,
+      "requirement": "500 Reps/Woche"
+    }
+  ],
+  "colors": [
+    {
+      "name": "Ozeanblau",
+      "value": "from-blue-500 to-cyan-400"
+    },
+    {
+      "name": "Waldgrün",
+      "value": "from-emerald-500 to-teal-400"
+    },
+    {
+      "name": "Fliederrausch",
+      "value": "from-purple-500 to-fuchsia-400"
+    },
+    {
+      "name": "Sonnenglut",
+      "value": "from-orange-500 to-red-500"
+    },
+    {
+      "name": "Goldglanz",
+      "value": "from-amber-400 to-yellow-300"
+    },
+    {
+      "name": "Rosenquarz",
+      "value": "from-pink-500 to-rose-400"
+    },
+    {
+      "name": "Mitternacht",
+      "value": "from-slate-700 to-slate-900"
+    },
+    {
+      "name": "Limette",
+      "value": "from-lime-400 to-green-500"
+    },
+    {
+      "name": "Magma",
+      "value": "from-red-600 to-orange-400"
+    },
+    {
+      "name": "Eiskristall",
+      "value": "from-sky-400 to-indigo-300"
+    },
+    {
+      "name": "Bernstein",
+      "value": "from-yellow-500 to-amber-600"
+    },
+    {
+      "name": "Tiefsee",
+      "value": "from-cyan-600 to-blue-800"
+    },
+    {
+      "name": "Kirschblüte",
+      "value": "from-pink-400 to-red-300"
+    },
+    {
+      "name": "Smaragd",
+      "value": "from-green-600 to-emerald-400"
+    },
+    {
+      "name": "Kosmos",
+      "value": "from-indigo-600 to-purple-800"
+    },
+    {
+      "name": "Sandsturm",
+      "value": "from-yellow-600 to-orange-300"
+    },
+    {
+      "name": "Polarlicht",
+      "value": "from-teal-300 to-green-400"
+    },
+    {
+      "name": "Violettflut",
+      "value": "from-violet-600 to-purple-500"
+    },
+    {
+      "name": "Korallenriff",
+      "value": "from-orange-400 to-pink-400"
+    },
+    {
+      "name": "Nebelgrau",
+      "value": "from-slate-400 to-slate-600"
+    }
+  ],
+  "frames": [
+    {
+      "name": "Flamme",
+      "emoji": "🔥"
+    },
+    {
+      "name": "Blitz",
+      "emoji": "⚡"
+    },
+    {
+      "name": "Stern",
+      "emoji": "⭐"
+    },
+    {
+      "name": "Schild",
+      "emoji": "🛡️"
+    },
+    {
+      "name": "Krone",
+      "emoji": "👑"
+    },
+    {
+      "name": "Diamant",
+      "emoji": "💎"
+    },
+    {
+      "name": "Rakete",
+      "emoji": "🚀"
+    },
+    {
+      "name": "Drache",
+      "emoji": "🐉"
+    },
+    {
+      "name": "Löwe",
+      "emoji": "🦁"
+    },
+    {
+      "name": "Phönix",
+      "emoji": "🦅"
+    },
+    {
+      "name": "Totenkopf",
+      "emoji": "💀"
+    },
+    {
+      "name": "Regenbogen",
+      "emoji": "🌈"
+    },
+    {
+      "name": "Galaxie",
+      "emoji": "🌌"
+    },
+    {
+      "name": "Trophäe",
+      "emoji": "🏆"
+    },
+    {
+      "name": "Herz",
+      "emoji": "❤️‍🔥"
+    },
+    {
+      "name": "Komet",
+      "emoji": "☄️"
+    },
+    {
+      "name": "Vulkan",
+      "emoji": "🌋"
+    },
+    {
+      "name": "Einhorn",
+      "emoji": "🦄"
+    },
+    {
+      "name": "Ninja",
+      "emoji": "🥷"
+    },
+    {
+      "name": "Roboter",
+      "emoji": "🤖"
+    }
+  ],
+  "rarityThresholds": [
+    {
+      "rarity": "common",
+      "threshold": 300
+    },
+    {
+      "rarity": "common",
+      "threshold": 800
+    },
+    {
+      "rarity": "common",
+      "threshold": 1500
+    },
+    {
+      "rarity": "common",
+      "threshold": 2400
+    },
+    {
+      "rarity": "rare",
+      "threshold": 3500
+    },
+    {
+      "rarity": "rare",
+      "threshold": 4800
+    },
+    {
+      "rarity": "rare",
+      "threshold": 6200
+    },
+    {
+      "rarity": "epic",
+      "threshold": 8000
+    },
+    {
+      "rarity": "epic",
+      "threshold": 10000
+    },
+    {
+      "rarity": "epic",
+      "threshold": 12500
+    },
+    {
+      "rarity": "epic",
+      "threshold": 15500
+    },
+    {
+      "rarity": "legendary",
+      "threshold": 19000
+    },
+    {
+      "rarity": "legendary",
+      "threshold": 23000
+    },
+    {
+      "rarity": "legendary",
+      "threshold": 28000
+    },
+    {
+      "rarity": "legendary",
+      "threshold": 34000
+    },
+    {
+      "rarity": "mythic",
+      "threshold": 42000
+    },
+    {
+      "rarity": "mythic",
+      "threshold": 55000
+    },
+    {
+      "rarity": "mythic",
+      "threshold": 70000
+    }
+  ],
+  "pullTemplates": [
+    {
+      "emoji": "⚡",
+      "title": "Blitz-Woche",
+      "description": "7 Tage, volle Power!",
+      "goal": 70,
+      "days": 7,
+      "color": "from-yellow-400 to-orange-500"
+    },
+    {
+      "emoji": "🔥",
+      "title": "30-Tage-Inferno",
+      "description": "Ein Monat Schmerz. Ein Leben Stolz.",
+      "goal": 300,
+      "days": 30,
+      "color": "from-orange-500 to-red-600"
+    },
+    {
+      "emoji": "👑",
+      "title": "König der Stange",
+      "description": "Wer schafft die meisten in 2 Wochen?",
+      "goal": 150,
+      "days": 14,
+      "color": "from-amber-400 to-yellow-500"
+    },
+    {
+      "emoji": "💪",
+      "title": "Iron Week",
+      "description": "Täglich 10 – niemals aufgeben!",
+      "goal": 50,
+      "days": 7,
+      "color": "from-blue-500 to-indigo-600"
+    },
+    {
+      "emoji": "🚀",
+      "title": "100er Sprint",
+      "description": "100 Klimmzüge so schnell wie möglich!",
+      "goal": 100,
+      "days": 3,
+      "color": "from-purple-500 to-violet-600"
+    },
+    {
+      "emoji": "🏔️",
+      "title": "Everest",
+      "description": "1000 Klimmzüge. Nicht für jeden.",
+      "goal": 1000,
+      "days": 60,
+      "color": "from-slate-500 to-gray-700"
+    }
+  ],
+  "pushTemplates": [
+    {
+      "emoji": "⚡",
+      "title": "Blitz-Woche",
+      "description": "7 Tage, volle Power!",
+      "goal": 100,
+      "days": 7,
+      "color": "from-yellow-400 to-orange-500"
+    },
+    {
+      "emoji": "🔥",
+      "title": "30-Tage-Inferno",
+      "description": "Ein Monat Schmerz. Ein Leben Stolz.",
+      "goal": 500,
+      "days": 30,
+      "color": "from-orange-500 to-red-600"
+    },
+    {
+      "emoji": "👑",
+      "title": "König der Liegestütze",
+      "description": "Wer schafft die meisten in 2 Wochen?",
+      "goal": 200,
+      "days": 14,
+      "color": "from-amber-400 to-yellow-500"
+    },
+    {
+      "emoji": "💪",
+      "title": "Iron Week",
+      "description": "Täglich 15 – niemals aufgeben!",
+      "goal": 75,
+      "days": 7,
+      "color": "from-blue-500 to-indigo-600"
+    },
+    {
+      "emoji": "🚀",
+      "title": "100er Sprint",
+      "description": "100 Liegestützen so schnell wie möglich!",
+      "goal": 100,
+      "days": 2,
+      "color": "from-purple-500 to-violet-600"
+    },
+    {
+      "emoji": "🏔️",
+      "title": "Everest",
+      "description": "1000 Liegestützen. Nicht für jeden.",
+      "goal": 1000,
+      "days": 60,
+      "color": "from-slate-500 to-gray-700"
+    }
+  ],
+  "pullDaily": [
+    {
+      "text": "Mach 3 Sätze à 5 Klimmzüge",
+      "target": 15,
+      "emoji": "💪"
+    },
+    {
+      "text": "Schlag deinen Tagesrekord!",
+      "target": null,
+      "emoji": "🏆"
+    },
+    {
+      "text": "10 Klimmzüge in einem Satz",
+      "target": 10,
+      "emoji": "⚡"
+    },
+    {
+      "text": "20 Klimmzüge heute insgesamt",
+      "target": 20,
+      "emoji": "🔥"
+    },
+    {
+      "text": "5 Sätze mit je 3 Wiederholungen",
+      "target": 15,
+      "emoji": "🎯"
+    },
+    {
+      "text": "Slow-Motion: 5 sehr langsame Klimmzüge",
+      "target": 5,
+      "emoji": "🐢"
+    },
+    {
+      "text": "25 Klimmzüge – du schaffst das!",
+      "target": 25,
+      "emoji": "🚀"
+    },
+    {
+      "text": "Morgens 5, mittags 5, abends 5",
+      "target": 15,
+      "emoji": "☀️"
+    }
+  ],
+  "pushDaily": [
+    {
+      "text": "3 Sätze à 10 Liegestützen",
+      "target": 30,
+      "emoji": "💪"
+    },
+    {
+      "text": "50 Liegestützen heute insgesamt",
+      "target": 50,
+      "emoji": "🔥"
+    },
+    {
+      "text": "20 Liegestützen in einem Satz",
+      "target": 20,
+      "emoji": "⚡"
+    },
+    {
+      "text": "Diamant-Liegestützen: 10 Stück",
+      "target": 10,
+      "emoji": "💎"
+    },
+    {
+      "text": "Langsame Negative: 5 Wiederholungen",
+      "target": 5,
+      "emoji": "🐢"
+    },
+    {
+      "text": "75 Liegestützen – Hardcore-Tag!",
+      "target": 75,
+      "emoji": "🏆"
+    },
+    {
+      "text": "Morgens 15, abends 15",
+      "target": 30,
+      "emoji": "☀️"
+    },
+    {
+      "text": "5 Sätze mit maximalen Wdh.",
+      "target": null,
+      "emoji": "🎯"
+    }
+  ]
+}

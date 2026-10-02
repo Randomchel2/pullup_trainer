@@ -1,0 +1,16 @@
+{
+  "name": "PullUp Trainer",
+  "short_name": "PullUp Trainer",
+  "description": "Deine tägliche Motivation für Klimmzüge: Tracke deine Wiederholungen, erreiche neue Meilensteine und messe dich in der Community-Rangliste.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://media.base44.com/images/public/6a0a0b35ea473b6e2b082cd0/2b95ccdd5_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

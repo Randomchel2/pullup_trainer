@@ -1,0 +1,36 @@
+[Unit]
+Description=PullUp Trainer (API + statisches Frontend)
+Documentation=https://github.com/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pullup
+Group=pullup
+WorkingDirectory=/srv/pullup-trainer
+ExecStart=/usr/bin/node server/src/index.js
+Restart=always
+RestartSec=3
+
+Environment=NODE_ENV=production
+Environment=PORT=3001
+Environment=PULLUP_DB=/var/lib/pullup-trainer/pullup.db
+
+# Nur lesen, was zum Start nötig ist – die DB liegt woanders.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/pullup-trainer
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pullup-trainer
+
+[Install]
+WantedBy=multi-user.target
